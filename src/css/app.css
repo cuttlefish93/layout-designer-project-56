@@ -266,94 +266,6 @@ input {
   }
 }
 
-.main-header {
-  background-image: url("../images/banner.png");
-  background-position: center;
-  background-size: cover;
-  padding: 25px 0 200px;
-}
-
-.page-desc {
-  color: #fff;
-  margin-top: 150px;
-  text-align: center;
-}
-.page-desc-subtitle {
-  margin-bottom: 30px;
-}
-.page-desc-text {
-  margin-bottom: 15px;
-}
-.page-desc .access-form {
-  max-width: 570px;
-  margin: 0 auto;
-}
-.page-desc .access-form-input {
-  min-width: 270px;
-  min-height: 50px;
-  border: 2px solid #CACACA;
-  border-radius: 3px;
-  padding: 16px 20px;
-  background-color: transparent;
-}
-.page-desc .access-form-input::placeholder {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 700;
-}
-.page-desc .access-form-input:nth-of-type(odd) {
-  margin-right: 20px;
-}
-.page-desc .access-form-btn {
-  margin-top: 20px;
-  background-color: #34c176;
-  border: none;
-  padding: 20px 30px;
-  width: 100%;
-  color: #fff;
-  font-size: 13.3px;
-  text-transform: uppercase;
-}
-@media screen and (max-width: 620px) {
-  .page-desc {
-    margin-top: 78px;
-  }
-  .page-desc-subtitle {
-    margin-bottom: 16px;
-  }
-  .page-desc .access-form {
-    width: 100%;
-  }
-  .page-desc .access-form-input {
-    width: 100%;
-  }
-  .page-desc .access-form-input:nth-of-type(odd) {
-    margin-right: 0;
-    margin-bottom: 24px;
-  }
-}
-
-.subscription {
-  padding-top: 100px;
-  color: #fff;
-  text-align: center;
-}
-.subscription-title {
-  margin-bottom: 45px;
-}
-.subscription-text {
-  margin-top: 45px;
-}
-
-.news {
-  padding-top: 100px;
-  text-align: center;
-  color: #fff;
-}
-.news-title {
-  margin-bottom: 48px;
-}
-
 .news-card {
   display: flex;
   gap: 50px;
@@ -445,6 +357,146 @@ input {
   }
   .news-card-content-author {
     justify-content: flex-start;
+  }
+}
+
+.main-header {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  padding: 25px 0 200px;
+}
+
+.page-desc {
+  color: #fff;
+  margin-top: 150px;
+  text-align: center;
+}
+.page-desc-subtitle {
+  margin-bottom: 30px;
+}
+.page-desc-text {
+  margin-bottom: 15px;
+}
+.page-desc .access-form {
+  max-width: 570px;
+  margin: 0 auto;
+}
+.page-desc .access-form-input {
+  min-width: 270px;
+  min-height: 50px;
+  border: 2px solid #CACACA;
+  border-radius: 3px;
+  padding: 16px 20px;
+  background-color: transparent;
+}
+.page-desc .access-form-input::placeholder {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+}
+.page-desc .access-form-input:nth-of-type(odd) {
+  margin-right: 20px;
+}
+.page-desc .access-form-btn {
+  margin-top: 20px;
+  background-color: #34c176;
+  border: none;
+  padding: 20px 30px;
+  width: 100%;
+  color: #fff;
+  font-size: 13.3px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 620px) {
+  .page-desc {
+    margin-top: 78px;
+  }
+  .page-desc-subtitle {
+    margin-bottom: 16px;
+  }
+  .page-desc .access-form {
+    width: 100%;
+  }
+  .page-desc .access-form-input {
+    width: 100%;
+  }
+  .page-desc .access-form-input:nth-of-type(odd) {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+}
+
+.subscription {
+  padding-top: 100px;
+  color: #fff;
+  text-align: center;
+}
+.subscription-title {
+  margin-bottom: 45px;
+}
+.subscription-text {
+  margin-top: 45px;
+}
+
+.news {
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+.news-title {
+  margin-bottom: 48px;
+}
+
+.mobile-app {
+  padding: 100px 0;
+}
+.mobile-app-title {
+  margin-bottom: 48px;
+  color: #fff;
+  text-align: center;
+}
+.mobile-app-content {
+  display: flex;
+}
+.mobile-app-info {
+  margin-right: 144px;
+  width: 50%;
+}
+.mobile-app-info-text:nth-of-type(odd) {
+  margin-bottom: 15px;
+}
+.mobile-app-info-link {
+  display: inline-block;
+  margin-top: 16px;
+  background-color: #95390c;
+  border-radius: 32px;
+  padding: 16px 40px;
+  font-size: 12.8px;
+  color: #fff;
+}
+@media screen and (max-width: 800px) {
+  .mobile-app-info {
+    margin-right: 0;
+    width: auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .mobile-app-content {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .mobile-app-info {
+    order: 2;
+    text-align: center;
+  }
+  .mobile-app-img {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 414px) {
+  .mobile-app-info {
+    text-align: left;
   }
 }
 
