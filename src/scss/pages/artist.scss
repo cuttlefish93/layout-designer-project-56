@@ -1,0 +1,54 @@
+@import "../blocks/header.scss";
+
+.artist-header {
+  background-image: url("../images/Morten\ Harket.png");
+  background-position: center;
+  background-size: cover;
+  padding: 25px 0 220px;
+}
+
+.artist-desc {
+  margin-top: 200px;
+  color: #fff;
+
+  &-title {
+    margin-bottom: 16px;
+  }
+
+  &-likes {
+    margin-bottom: 48px;
+  }
+
+  &-btns {
+    display: flex;
+    gap: 0 24px;
+  }
+
+  &-btn {
+    font-size: 12.8px;
+    text-align: left;
+    border: none;
+    padding: 20px 20px 20px 67px;
+    width: 200px;
+    height: 60px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 21px;
+      left: 31px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    margin-top: 55px;
+
+    &-btns {
+      flex-direction: column;
+      gap: 24px 0;
+    }
+  }
+}

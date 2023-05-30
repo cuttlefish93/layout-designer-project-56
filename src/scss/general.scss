@@ -102,6 +102,22 @@ input {
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
+
+  &-play {
+    background-color: $purple-color;
+
+    &::before {
+      background-image: url("../images/play-button.svg");
+    }
+  }
+
+  &-like {
+    background-color: $brown-color;
+
+    &::before {
+      background-image: url("../images/heart.svg");
+    }
+  }
 }
 
 .bg-free {
