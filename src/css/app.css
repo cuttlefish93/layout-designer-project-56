@@ -6,7 +6,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 
@@ -72,6 +73,14 @@ h3 {
     font-size: 16px;
     line-height: 24px;
   }
+}
+
+h4 {
+  font-family: Roboto, "sans-serif";
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 a {
@@ -497,6 +506,63 @@ input {
 @media screen and (max-width: 414px) {
   .mobile-app-info {
     text-align: left;
+  }
+}
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  color: #e0e0e0;
+}
+.footer-nav {
+  padding: 62px 0 72px;
+  border-bottom: 1px solid #CACACA;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-nav-col {
+  flex: 1 1 20%;
+}
+.footer-nav-title {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.footer-nav-list-social {
+  display: flex;
+  gap: 24px;
+}
+.footer-nav-list-social-link {
+  width: 30px;
+  height: 30px;
+  display: block;
+  text-align: center;
+}
+.footer-nav-list-social-icon {
+  vertical-align: middle;
+}
+.footer-menu {
+  padding: 40px 0;
+  display: flex;
+  gap: 16px;
+}
+@media screen and (max-width: 700px) {
+  .footer-nav {
+    gap: 20px 10px;
+  }
+  .footer-nav-col {
+    flex: 1 1 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-nav {
+    gap: 30px 0;
+  }
+  .footer-nav-col {
+    flex: 1 1 100%;
+  }
+  .footer-menu {
+    flex-direction: column;
   }
 }
 
