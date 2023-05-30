@@ -54,33 +54,31 @@
   }
 
   @media screen and (max-width: 770px) {
-    & {
-      flex-direction: column;
+    flex-direction: column;
 
-      .logo {
-        margin-right: 0;
-        margin-bottom: 15px;
-      }
+    .logo {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
 
-      .nav {
-        margin-bottom: 18px;
+    .nav {
+      margin-bottom: 18px;
 
-        &-menu {
-          flex-direction: column;
-          gap: 0;
+      &-menu {
+        flex-direction: column;
+        gap: 0;
 
-          &-link {
-            font-weight: 700;
-          }
+        &-link {
+          font-weight: 700;
         }
       }
+    }
 
-      .search {
-        margin-left: 0;
+    .search {
+      margin-left: 0;
 
-        &-input {
-          width: 100%;
-        }
+      &-input {
+        width: 100%;
       }
     }
   }

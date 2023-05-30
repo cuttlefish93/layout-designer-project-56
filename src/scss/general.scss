@@ -26,10 +26,8 @@ h1 {
   text-transform: uppercase;
 
   @media screen and (max-width: 620px) {
-    & {
-      font-size: 30px;
-      line-height: 45px;
-    }
+    font-size: 30px;
+    line-height: 45px;
   }
 }
 
@@ -41,19 +39,22 @@ h2 {
   text-transform: uppercase;
 
   @media screen and (max-width: 620px) {
-    & {
-      font-size: 18px;
-      line-height: 27px;
-    }
+    font-size: 18px;
+    line-height: 27px;
   }
 }
 
-h2 {
+h3 {
   font-family: Roboto, "sans-serif";
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
   text-transform: uppercase;
+
+  @media screen and (max-width: 620px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 a {
@@ -78,7 +79,7 @@ input {
   max-width: 1200px;
   margin: 0 auto;
 
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 800px) {
     width: 100%;
     padding: 0 20px;
   }
@@ -92,16 +93,30 @@ input {
   background-color: transparent;
   border-radius: 5px;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .bg-free {
   background-image: url("../images/subscribe_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .bg-standart {
   background-image: url("../images/subscribe_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .bg-premium {
   background-image: url("../images/subscribe_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-main {
+  background-color: $main-dark-color;
 }

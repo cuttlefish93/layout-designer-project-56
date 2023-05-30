@@ -1,0 +1,59 @@
+.subscription-types {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.subscription-type {
+  padding: 1.5rem;
+  color: #fff;
+  min-height: 615px;
+  border-radius: 1rem;
+
+  &-title {
+    margin-bottom: 200px;
+  }
+
+  &-price {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
+
+    &-num {
+      font-size: 64px;
+      line-height: 64px;
+    }
+
+    &-curr {
+      font-size: 32px;
+      line-height: 48px;
+      text-transform: uppercase;
+    }
+  }
+
+  &-btn {
+    font-size: 16px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+  &-info {
+    font-size: 12.8px;
+    line-height: 19px;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 100%;
+  }
+}
