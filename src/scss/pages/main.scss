@@ -1,0 +1,78 @@
+.main-header {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  padding: 25px 0 200px;
+}
+
+.page-desc {
+  color: #fff;
+  margin-top: 150px;
+  text-align: center;
+
+  &-subtitle {
+    margin-bottom: 30px;
+  }
+
+  &-text {
+    margin-bottom: 15px;
+  }
+
+  .access-form {
+    max-width: 570px;
+    margin: 0 auto;
+
+    &-input {
+      min-width: 270px;
+      min-height: 50px;
+      border: 2px solid $secondary-light-color;
+      border-radius: 3px;
+      padding: 16px 20px;
+      background-color: transparent;
+
+      &::placeholder {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      &:nth-of-type(odd) {
+        margin-right: 20px;
+      }
+    }
+
+    &-btn {
+      margin-top: 20px;
+      background-color: $green-color;
+      border: none;
+      padding: 20px 30px;
+      width: 100%;
+      color: #fff;
+      font-size: 13.3px;
+      text-transform: uppercase;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    & {
+      margin-top: 78px;
+
+      &-subtitle {
+        margin-bottom: 16px;
+      }
+
+      .access-form {
+        width: 100%;
+
+        &-input {
+          width: 100%;
+
+          &:nth-of-type(odd) {
+            margin-right: 0;
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+}
