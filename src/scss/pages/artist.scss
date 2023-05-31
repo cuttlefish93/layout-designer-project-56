@@ -1,5 +1,6 @@
 @import "../blocks/header.scss";
 @import "../blocks/track.scss";
+@import "../blocks/discography-item.scss";
 
 .artist-header {
   background-image: url("../images/Morten\ Harket.png");
@@ -75,5 +76,20 @@
       grid-template-rows: repeat(6, 55px);
       gap: 25px 0;
     }
+  }
+}
+
+.discography {
+  padding-top: 100px;
+  color: #fff;
+
+  &-title {
+    margin-bottom: 48px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 50px;
   }
 }
