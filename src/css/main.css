@@ -111,7 +111,7 @@ input {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .wrapper {
     width: 100%;
     padding: 0 20px;
@@ -616,9 +616,12 @@ input {
   margin-bottom: 48px;
 }
 
+.mobile-app {
+  padding-bottom: 100px;
+}
+
 .mobile-app #page-app {
   padding-top: 100px;
-  margin-bottom: 100px;
 }
 
 .mobile-app-title {
