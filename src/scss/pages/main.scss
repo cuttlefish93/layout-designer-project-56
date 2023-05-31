@@ -1,3 +1,4 @@
+@import "../app.scss";
 @import "../blocks/header.scss";
 @import "../blocks/subscription-types.scss";
 @import "../blocks/news-card.scss";
@@ -162,79 +163,6 @@
   @media screen and (max-width: 414px) {
     &-info {
       text-align: left;
-    }
-  }
-}
-
-.footer {
-  background: linear-gradient(
-    89.75deg,
-    $purple-color 32.83%,
-    $brown-color 81.56%
-  );
-  color: $main-light-color;
-
-  &-nav {
-    padding: 62px 0 72px;
-    border-bottom: 1px solid $secondary-light-color;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-    &-col {
-      flex: 1 1 20%;
-    }
-
-    &-title {
-      color: #fff;
-      margin-bottom: 15px;
-    }
-
-    &-list-social {
-      display: flex;
-      gap: 24px;
-
-      &-link {
-        width: 30px;
-        height: 30px;
-        display: block;
-        text-align: center;
-      }
-
-      &-icon {
-        vertical-align: middle;
-      }
-    }
-  }
-
-  &-menu {
-    padding: 40px 0;
-    display: flex;
-    gap: 16px;
-  }
-
-  @media screen and (max-width: 700px) {
-    &-nav {
-      gap: 20px 10px;
-
-      &-col {
-        flex: 1 1 40%;
-      }
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    &-nav {
-      gap: 30px 0;
-
-      &-col {
-        flex: 1 1 100%;
-      }
-    }
-
-    &-menu {
-      flex-direction: column;
     }
   }
 }

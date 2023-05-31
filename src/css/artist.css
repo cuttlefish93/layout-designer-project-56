@@ -20,27 +20,30 @@ p {
   font-family: Roboto;
   font-weight: 700;
 }
+
 @font-face {
   src: url("../fonts/Roboto-Regular.woff2") format("woff2");
   font-family: Roboto;
   font-weight: 400;
 }
+
 body {
-  font-family: Roboto, "sans-serif";
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #CACACA;
+  color: #cacaca;
   margin: 0;
 }
 
 h1 {
-  font-family: Roboto, "sans-serif";
+  font-family: Roboto, sans-serif;
   font-size: 60px;
   line-height: 90px;
   font-weight: 700;
   text-transform: uppercase;
 }
-@media screen and (max-width: 620px) {
+
+@media (max-width: 620px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -48,13 +51,14 @@ h1 {
 }
 
 h2 {
-  font-family: Roboto, "sans-serif";
+  font-family: Roboto, sans-serif;
   font-size: 38px;
   line-height: 57px;
   font-weight: 700;
   text-transform: uppercase;
 }
-@media screen and (max-width: 620px) {
+
+@media (max-width: 620px) {
   h2 {
     font-size: 18px;
     line-height: 27px;
@@ -62,13 +66,14 @@ h2 {
 }
 
 h3 {
-  font-family: Roboto, "sans-serif";
+  font-family: Roboto, sans-serif;
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
   text-transform: uppercase;
 }
-@media screen and (max-width: 620px) {
+
+@media (max-width: 620px) {
   h3 {
     font-size: 16px;
     line-height: 24px;
@@ -76,7 +81,7 @@ h3 {
 }
 
 h4 {
-  font-family: Roboto, "sans-serif";
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
@@ -105,7 +110,8 @@ input {
   max-width: 1200px;
   margin: 0 auto;
 }
-@media screen and (max-width: 800px) {
+
+@media (max-width: 800px) {
   .wrapper {
     width: 100%;
     padding: 0 20px;
@@ -122,15 +128,19 @@ input {
   cursor: pointer;
   text-transform: uppercase;
 }
+
 .btn-play {
   background-color: #5328a1;
 }
+
 .btn-play::before {
   background-image: url("../images/play-button.svg");
 }
+
 .btn-like {
   background-color: #95390c;
 }
+
 .btn-like::before {
   background-image: url("../images/heart.svg");
 }
@@ -164,67 +174,83 @@ input {
   width: 100%;
   display: flex;
 }
+
 .header .logo {
   margin-right: 90px;
   display: flex;
   align-items: center;
 }
+
 .header .logo-img {
   width: 24px;
   height: 24px;
   margin-right: 16px;
 }
+
 .header .logo-text {
   font-size: 11px;
   color: #fff;
   text-transform: uppercase;
 }
+
 .header .nav-menu {
   display: flex;
   gap: 24px;
 }
+
 .header .nav-menu-link {
   font-size: 11px;
   text-transform: uppercase;
 }
+
 .header .nav-menu-link.active {
   color: #fff;
 }
+
 .header .search {
   margin-left: auto;
 }
+
 .header .search-input {
   background-color: #3c3b3d;
   border-radius: 50px;
   padding: 5px 10px;
   width: 248px;
 }
+
 .header .search-input::placeholder {
   text-transform: uppercase;
   font-size: 13.3px;
   color: #757575;
 }
-@media screen and (max-width: 770px) {
+
+@media (max-width: 770px) {
   .header {
     flex-direction: column;
   }
+
   .header .logo {
     margin-right: 0;
     margin-bottom: 15px;
   }
+
   .header .nav {
     margin-bottom: 18px;
   }
+
   .header .nav-menu {
     flex-direction: column;
     gap: 0;
   }
+
   .header .nav-menu-link {
     font-weight: 700;
   }
+
   .header .search {
     margin-left: 0;
   }
+
   .header .search-input {
     width: 100%;
   }
@@ -236,22 +262,27 @@ input {
   align-items: center;
   font-size: 12.8px;
 }
+
 .track-info {
   display: flex;
   align-items: center;
   column-gap: 15px;
 }
+
 .track-cover {
   width: 55px;
   height: 55px;
 }
+
 .track-name {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .track-author {
   color: #e0e0e0;
 }
+
 .track-duration {
   color: #e0e0e0;
 }
@@ -259,20 +290,25 @@ input {
 .discography-item {
   width: 250px;
 }
+
 .discography-item-cover {
   height: 250px;
   margin-bottom: 18px;
 }
+
 .discography-item-name {
   text-transform: none;
 }
+
 .discography-item-year {
   color: #e0e0e0;
 }
-@media screen and (max-width: 620px) {
+
+@media (max-width: 620px) {
   .discography-item {
     width: 137px;
   }
+
   .discography-item-cover {
     height: 137px;
   }
@@ -282,21 +318,26 @@ input {
   width: 250px;
   text-align: center;
 }
+
 .similar-artist-avatar {
   height: 250px;
   border-radius: 50%;
   margin-bottom: 17px;
 }
+
 .similar-artist-name {
   text-transform: none;
 }
+
 .similar-artist-likes {
   color: #e0e0e0;
 }
-@media screen and (max-width: 620px) {
+
+@media (max-width: 620px) {
   .similar-artist {
     width: 137px;
   }
+
   .similar-artist-avatar {
     height: 137px;
   }
@@ -306,54 +347,66 @@ input {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   color: #e0e0e0;
 }
+
 .footer-nav {
   padding: 62px 0 72px;
-  border-bottom: 1px solid #CACACA;
+  border-bottom: 1px solid #cacaca;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .footer-nav-col {
   flex: 1 1 20%;
 }
+
 .footer-nav-title {
   color: #fff;
   margin-bottom: 15px;
 }
+
 .footer-nav-list-social {
   display: flex;
   gap: 24px;
 }
+
 .footer-nav-list-social-link {
   width: 30px;
   height: 30px;
   display: block;
   text-align: center;
 }
+
 .footer-nav-list-social-icon {
   vertical-align: middle;
 }
+
 .footer-menu {
   padding: 40px 0;
   display: flex;
   gap: 16px;
 }
-@media screen and (max-width: 700px) {
+
+@media (max-width: 700px) {
   .footer-nav {
     gap: 20px 10px;
   }
+
   .footer-nav-col {
     flex: 1 1 40%;
   }
 }
-@media screen and (max-width: 500px) {
+
+@media (max-width: 500px) {
   .footer-nav {
     gap: 30px 0;
   }
+
   .footer-nav-col {
     flex: 1 1 100%;
   }
+
   .footer-menu {
     flex-direction: column;
   }
@@ -370,16 +423,20 @@ input {
   margin-top: 200px;
   color: #fff;
 }
+
 .artist-desc-title {
   margin-bottom: 16px;
 }
+
 .artist-desc-likes {
   margin-bottom: 48px;
 }
+
 .artist-desc-btns {
   display: flex;
   gap: 0 24px;
 }
+
 .artist-desc-btn {
   font-size: 12.8px;
   text-align: left;
@@ -389,6 +446,7 @@ input {
   height: 60px;
   position: relative;
 }
+
 .artist-desc-btn::before {
   content: "";
   position: absolute;
@@ -397,10 +455,12 @@ input {
   width: 20px;
   height: 20px;
 }
-@media screen and (max-width: 450px) {
+
+@media (max-width: 450px) {
   .artist-desc {
     margin-top: 55px;
   }
+
   .artist-desc-btns {
     flex-direction: column;
     gap: 24px 0;
@@ -411,16 +471,19 @@ input {
   padding-top: 100px;
   color: #fff;
 }
+
 .popular-tracks-title {
   margin-bottom: 48px;
 }
+
 .popular-tracks-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 55px);
   gap: 25px 50px;
 }
-@media screen and (max-width: 600px) {
+
+@media (max-width: 600px) {
   .popular-tracks-list {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 55px);
@@ -432,9 +495,11 @@ input {
   padding-top: 100px;
   color: #fff;
 }
+
 .discography-title {
   margin-bottom: 48px;
 }
+
 .discography-list {
   display: flex;
   flex-wrap: wrap;
@@ -445,13 +510,15 @@ input {
   padding: 100px 0;
   color: #fff;
 }
+
 .similar-artists-title {
   margin-bottom: 48px;
 }
+
 .similar-artists-list {
   display: flex;
   flex-wrap: wrap;
   gap: 25px 50px;
 }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=artist.css.map */
