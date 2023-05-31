@@ -587,9 +587,12 @@ input {
 }
 
 .subscription {
-  padding-top: 100px;
   color: #fff;
   text-align: center;
+}
+
+.subscription #page-pricing {
+  padding-top: 100px;
 }
 
 .subscription-title {
@@ -601,17 +604,21 @@ input {
 }
 
 .news {
-  padding-top: 100px;
   text-align: center;
   color: #fff;
+}
+
+.news #page-news {
+  padding-top: 100px;
 }
 
 .news-title {
   margin-bottom: 48px;
 }
 
-.mobile-app {
-  padding: 100px 0;
+.mobile-app #page-app {
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .mobile-app-title {

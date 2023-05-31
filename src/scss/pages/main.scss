@@ -82,9 +82,12 @@
 }
 
 .subscription {
-  padding-top: 100px;
   color: #fff;
   text-align: center;
+
+  #page-pricing {
+    padding-top: 100px;
+  }
 
   &-title {
     margin-bottom: 45px;
@@ -96,9 +99,12 @@
 }
 
 .news {
-  padding-top: 100px;
   text-align: center;
   color: #fff;
+
+  #page-news {
+    padding-top: 100px;
+  }
 
   &-title {
     margin-bottom: 48px;
@@ -106,7 +112,10 @@
 }
 
 .mobile-app {
-  padding: 100px 0;
+  #page-app {
+    padding-top: 100px;
+    margin-bottom: 100px;
+  }
 
   &-title {
     margin-bottom: 48px;

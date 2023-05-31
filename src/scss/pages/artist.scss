@@ -59,8 +59,11 @@
 }
 
 .popular-tracks {
-  padding-top: 100px;
   color: #fff;
+
+  #page-popular-track {
+    padding-top: 100px;
+  }
 
   &-title {
     margin-bottom: 48px;
@@ -83,8 +86,11 @@
 }
 
 .discography {
-  padding-top: 100px;
   color: #fff;
+
+  #page-discography {
+    padding-top: 100px;
+  }
 
   &-title {
     margin-bottom: 48px;

@@ -468,8 +468,11 @@ input {
 }
 
 .popular-tracks {
-  padding-top: 100px;
   color: #fff;
+}
+
+.popular-tracks #page-popular-track {
+  padding-top: 100px;
 }
 
 .popular-tracks-title {
@@ -492,8 +495,11 @@ input {
 }
 
 .discography {
-  padding-top: 100px;
   color: #fff;
+}
+
+.discography #page-discography {
+  padding-top: 100px;
 }
 
 .discography-title {
