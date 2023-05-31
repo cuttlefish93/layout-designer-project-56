@@ -2,28 +2,3 @@
 @import "reset.scss";
 @import "general.scss";
 @import "pages/artist.scss";
-
-.discography-item {
-  width: 250px;
-
-  &-cover {
-    height: 250px;
-    margin-bottom: 18px;
-  }
-
-  &-name {
-    text-transform: none;
-  }
-
-  &-year {
-    color: $main-light-color;
-  }
-
-  @media screen and (max-width: 620px) {
-    width: 137px;
-
-    &-cover {
-      height: 137px;
-    }
-  }
-}

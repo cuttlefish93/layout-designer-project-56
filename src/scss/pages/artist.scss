@@ -1,6 +1,8 @@
 @import "../blocks/header.scss";
 @import "../blocks/track.scss";
 @import "../blocks/discography-item.scss";
+@import "../blocks/similar-artist.scss";
+@import "../blocks/footer.scss";
 
 .artist-header {
   background-image: url("../images/Morten\ Harket.png");
@@ -81,6 +83,21 @@
 
 .discography {
   padding-top: 100px;
+  color: #fff;
+
+  &-title {
+    margin-bottom: 48px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 50px;
+  }
+}
+
+.similar-artists {
+  padding: 100px 0;
   color: #fff;
 
   &-title {

@@ -256,6 +256,109 @@ input {
   color: #e0e0e0;
 }
 
+.discography-item {
+  width: 250px;
+}
+.discography-item-cover {
+  height: 250px;
+  margin-bottom: 18px;
+}
+.discography-item-name {
+  text-transform: none;
+}
+.discography-item-year {
+  color: #e0e0e0;
+}
+@media screen and (max-width: 620px) {
+  .discography-item {
+    width: 137px;
+  }
+  .discography-item-cover {
+    height: 137px;
+  }
+}
+
+.similar-artist {
+  width: 250px;
+  text-align: center;
+}
+.similar-artist-avatar {
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 17px;
+}
+.similar-artist-name {
+  text-transform: none;
+}
+.similar-artist-likes {
+  color: #e0e0e0;
+}
+@media screen and (max-width: 620px) {
+  .similar-artist {
+    width: 137px;
+  }
+  .similar-artist-avatar {
+    height: 137px;
+  }
+}
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  color: #e0e0e0;
+}
+.footer-nav {
+  padding: 62px 0 72px;
+  border-bottom: 1px solid #CACACA;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-nav-col {
+  flex: 1 1 20%;
+}
+.footer-nav-title {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.footer-nav-list-social {
+  display: flex;
+  gap: 24px;
+}
+.footer-nav-list-social-link {
+  width: 30px;
+  height: 30px;
+  display: block;
+  text-align: center;
+}
+.footer-nav-list-social-icon {
+  vertical-align: middle;
+}
+.footer-menu {
+  padding: 40px 0;
+  display: flex;
+  gap: 16px;
+}
+@media screen and (max-width: 700px) {
+  .footer-nav {
+    gap: 20px 10px;
+  }
+  .footer-nav-col {
+    flex: 1 1 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-nav {
+    gap: 30px 0;
+  }
+  .footer-nav-col {
+    flex: 1 1 100%;
+  }
+  .footer-menu {
+    flex-direction: column;
+  }
+}
+
 .artist-header {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
@@ -338,26 +441,17 @@ input {
   gap: 25px 50px;
 }
 
-.discography-item {
-  width: 250px;
+.similar-artists {
+  padding: 100px 0;
+  color: #fff;
 }
-.discography-item-cover {
-  height: 250px;
-  margin-bottom: 18px;
+.similar-artists-title {
+  margin-bottom: 48px;
 }
-.discography-item-name {
-  text-transform: none;
-}
-.discography-item-year {
-  color: #e0e0e0;
-}
-@media screen and (max-width: 620px) {
-  .discography-item {
-    width: 137px;
-  }
-  .discography-item-cover {
-    height: 137px;
-  }
+.similar-artists-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
 }
 
 /*# sourceMappingURL=app.css.map */

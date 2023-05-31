@@ -1,0 +1,26 @@
+.similar-artist {
+  width: 250px;
+  text-align: center;
+
+  &-avatar {
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 17px;
+  }
+
+  &-name {
+    text-transform: none;
+  }
+
+  &-likes {
+    color: $main-light-color;
+  }
+
+  @media screen and (max-width: 620px) {
+    width: 137px;
+
+    &-avatar {
+      height: 137px;
+    }
+  }
+}
