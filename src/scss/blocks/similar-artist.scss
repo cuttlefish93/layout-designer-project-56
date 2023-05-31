@@ -5,11 +5,14 @@
   &-avatar {
     height: 250px;
     border-radius: 50%;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
 
   &-name {
     text-transform: none;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
   }
 
   &-likes {

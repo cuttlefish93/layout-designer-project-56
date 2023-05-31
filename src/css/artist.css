@@ -111,7 +111,7 @@ input {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1239px) {
   .wrapper {
     width: 100%;
     padding: 0 20px;
@@ -275,8 +275,9 @@ input {
 }
 
 .track-name {
-  text-transform: uppercase;
   font-weight: 700;
+  font-size: 12.8px;
+  line-height: 19.2px;
 }
 
 .track-author {
@@ -293,7 +294,7 @@ input {
 
 .discography-item-cover {
   height: 250px;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 .discography-item-name {
@@ -322,11 +323,14 @@ input {
 .similar-artist-avatar {
   height: 250px;
   border-radius: 50%;
-  margin-bottom: 17px;
+  margin-bottom: 15px;
 }
 
 .similar-artist-name {
   text-transform: none;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
 }
 
 .similar-artist-likes {
