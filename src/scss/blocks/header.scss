@@ -30,9 +30,15 @@
       gap: 24px;
     }
 
-    &-menu-link {
+    &-menu-item {
       font-size: 11px;
+      line-height: 12.8px;
+    }
+
+    &-menu-link {
       text-transform: uppercase;
+      font-size: 11px;
+      line-height: 12.8px;
 
       &.active {
         color: #fff;
@@ -70,11 +76,7 @@
 
       &-menu {
         flex-direction: column;
-        gap: 0;
-
-        &-item {
-          line-height: 1;
-        }
+        gap: 3px;
 
         &-link {
           font-weight: 700;

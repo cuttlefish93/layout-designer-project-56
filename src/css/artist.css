@@ -211,9 +211,15 @@ input {
   gap: 24px;
 }
 
-.header .nav-menu-link {
+.header .nav-menu-item {
   font-size: 11px;
+  line-height: 12.8px;
+}
+
+.header .nav-menu-link {
   text-transform: uppercase;
+  font-size: 11px;
+  line-height: 12.8px;
 }
 
 .header .nav-menu-link.active {
@@ -253,11 +259,7 @@ input {
 
   .header .nav-menu {
     flex-direction: column;
-    gap: 0;
-  }
-
-  .header .nav-menu-item {
-    line-height: 1;
+    gap: 3px;
   }
 
   .header .nav-menu-link {
