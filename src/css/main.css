@@ -31,7 +31,7 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #cacaca;
+  color: #CACACA;
   margin: 0;
 }
 
@@ -170,7 +170,7 @@ input {
 
 .hor-divider {
   width: 100%;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid #CACACA;
 }
 
 #page-description {
@@ -373,12 +373,12 @@ input {
   margin-bottom: 65px;
 }
 
-.news-card.reverse .news-card-img {
-  order: 2;
+.news-card-img {
+  width: 575px;
 }
 
-.news-card.reverse .news-card-content {
-  order: 1;
+.news-card.reverse .news-card-img {
+  order: 2;
 }
 
 .news-card-content {
@@ -392,7 +392,7 @@ input {
 }
 
 .news-card-content-body {
-  color: #cacaca;
+  color: #CACACA;
   margin-bottom: 25px;
 }
 
@@ -415,17 +415,21 @@ input {
 }
 
 .news-card-content-author-date {
-  color: #cacaca;
+  color: #CACACA;
 }
 
 .news-card-content-link {
   display: inline-block;
-  color: #cacaca;
+  color: #CACACA;
   font-size: 12px;
-  border: 1px solid #cacaca;
+  border: 1px solid #CACACA;
   border-radius: 5px;
   padding: 16px 30px;
   text-transform: uppercase;
+}
+
+.news-card.reverse .news-card-content {
+  order: 1;
 }
 
 @media screen and (max-width: 900px) {
@@ -579,7 +583,7 @@ input {
 .page-desc .access-form-input {
   min-width: 270px;
   height: 50px;
-  border: 2px solid #cacaca;
+  border: 2px solid #CACACA;
   border-radius: 3px;
   padding: 16px 20px;
   background-color: transparent;
