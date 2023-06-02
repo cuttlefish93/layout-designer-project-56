@@ -20,16 +20,18 @@ p {
   font-family: Roboto;
   font-weight: 700;
 }
+
 @font-face {
   src: url("../fonts/Roboto-Regular.woff2") format("woff2");
   font-family: Roboto;
   font-weight: 400;
 }
+
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #CACACA;
+  color: #cacaca;
   margin: 0;
 }
 
@@ -40,6 +42,7 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 @media screen and (max-width: 620px) {
   h1 {
     font-size: 30px;
@@ -54,6 +57,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 @media screen and (max-width: 620px) {
   h2 {
     font-size: 18px;
@@ -68,6 +72,7 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
 }
+
 @media screen and (max-width: 620px) {
   h3 {
     font-size: 16px;
@@ -107,6 +112,7 @@ input {
   padding-left: 20px;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 1239px) {
   .wrapper {
     width: 100%;
@@ -123,15 +129,19 @@ input {
   cursor: pointer;
   text-transform: uppercase;
 }
+
 .btn-play {
   background-color: #5328a1;
 }
+
 .btn-play::before {
   background-image: url("../images/play-button.svg");
 }
+
 .btn-like {
   background-color: #95390c;
 }
+
 .btn-like::before {
   background-image: url("../images/heart.svg");
 }
@@ -160,7 +170,7 @@ input {
 
 .hor-divider {
   width: 100%;
-  border-bottom: 1px solid #CACACA;
+  border-bottom: 1px solid #cacaca;
 }
 
 #page-description {
@@ -177,70 +187,87 @@ input {
   transform: translateX(-50%);
   display: flex;
 }
+
 .header .logo {
   margin-right: 90px;
   display: flex;
   align-items: center;
 }
+
 .header .logo-img {
   width: 24px;
   height: 24px;
   margin-right: 16px;
 }
+
 .header .logo-text {
   font-size: 11px;
   color: #fff;
   text-transform: uppercase;
 }
+
 .header .nav-menu {
   display: flex;
   gap: 24px;
 }
+
 .header .nav-menu-link {
   font-size: 11px;
   text-transform: uppercase;
 }
+
 .header .nav-menu-link.active {
   color: #fff;
 }
+
 .header .search {
   margin-left: auto;
 }
+
 .header .search-input {
   background-color: #3c3b3d;
   border-radius: 50px;
   padding: 5px 10px;
   width: 248px;
 }
+
 .header .search-input::placeholder {
   text-transform: uppercase;
   font-size: 13.3px;
   color: #757575;
 }
+
 @media screen and (max-width: 770px) {
   .header {
     flex-direction: column;
   }
+
   .header .logo {
     margin-right: 0;
-    margin-bottom: 15px;
-  }
-  .header .nav {
     margin-bottom: 17px;
   }
+
+  .header .nav {
+    margin-bottom: 20px;
+  }
+
   .header .nav-menu {
     flex-direction: column;
     gap: 0;
   }
+
   .header .nav-menu-item {
     line-height: 1;
   }
+
   .header .nav-menu-link {
     font-weight: 700;
   }
+
   .header .search {
     margin-left: 0;
   }
+
   .header .search-input {
     width: 100%;
   }
@@ -252,23 +279,28 @@ input {
   align-items: center;
   font-size: 12.8px;
 }
+
 .track-info {
   display: flex;
   align-items: center;
   column-gap: 15px;
 }
+
 .track-cover {
   width: 55px;
   height: 55px;
 }
+
 .track-name {
   font-weight: 700;
   font-size: 12.8px;
   line-height: 19.2px;
 }
+
 .track-author {
   color: #e0e0e0;
 }
+
 .track-duration {
   color: #e0e0e0;
 }
@@ -276,20 +308,25 @@ input {
 .discography-item {
   width: 250px;
 }
+
 .discography-item-cover {
   height: 250px;
   margin-bottom: 10px;
 }
+
 .discography-item-name {
   text-transform: none;
 }
+
 .discography-item-year {
   color: #e0e0e0;
 }
+
 @media screen and (max-width: 620px) {
   .discography-item {
     width: 137px;
   }
+
   .discography-item-cover {
     height: 137px;
   }
@@ -299,24 +336,29 @@ input {
   width: 250px;
   text-align: center;
 }
+
 .similar-artist-avatar {
   height: 250px;
   border-radius: 50%;
   margin-bottom: 10px;
 }
+
 .similar-artist-name {
   text-transform: none;
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
 }
+
 .similar-artist-likes {
   color: #e0e0e0;
 }
+
 @media screen and (max-width: 620px) {
   .similar-artist {
     width: 137px;
   }
+
   .similar-artist-avatar {
     height: 137px;
   }
@@ -326,6 +368,7 @@ input {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   color: #e0e0e0;
 }
+
 .footer-nav {
   padding-top: 62px;
   padding-bottom: 72px;
@@ -334,49 +377,60 @@ input {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .footer-nav-col {
   flex: 1 1 20%;
 }
+
 .footer-nav-title {
   color: #fff;
   margin-bottom: 15px;
   font-size: 18px;
   line-height: 27px;
 }
+
 .footer-nav-list-social {
   display: flex;
   gap: 24px;
 }
+
 .footer-nav-list-social-link {
   width: 30px;
   height: 30px;
   display: block;
   text-align: center;
 }
+
 .footer-nav-list-social-icon {
   vertical-align: middle;
 }
+
 .footer-menu {
   padding-top: 40px;
   padding-bottom: 50px;
   display: flex;
   gap: 16px;
 }
+
 @media screen and (max-width: 700px) {
   .footer-nav {
     gap: 20px 10px;
   }
+
   .footer-nav-col {
     flex: 1 1 40%;
   }
 }
+
 @media screen and (max-width: 500px) {
   .footer-nav {
     gap: 30px 0;
   }
+
   .footer-nav-col {
     flex: 1 1 100%;
   }
+
   .footer-menu {
     flex-direction: column;
   }
@@ -388,19 +442,23 @@ input {
 
 .artist-desc {
   background-image: url("../images/Morten Harket.png");
-  padding-top: 225px;
-  padding-bottom: 200px;
+  padding-top: 250px;
+  padding-bottom: 225px;
 }
+
 .artist-desc-title {
   margin-bottom: 16px;
 }
+
 .artist-desc-likes {
   margin-bottom: 48px;
 }
+
 .artist-desc-btns {
   display: flex;
   gap: 0 24px;
 }
+
 .artist-desc-btn {
   font-size: 12.8px;
   text-align: left;
@@ -410,6 +468,7 @@ input {
   height: 60px;
   position: relative;
 }
+
 .artist-desc-btn::before {
   content: "";
   position: absolute;
@@ -418,10 +477,12 @@ input {
   width: 20px;
   height: 20px;
 }
+
 @media screen and (max-width: 450px) {
   .artist-desc {
-    padding-bottom: 225px;
+    padding-top: 225px;
   }
+
   .artist-desc-btns {
     flex-direction: column;
     gap: 24px 0;
@@ -431,18 +492,22 @@ input {
 .popular-tracks {
   color: #fff;
 }
+
 .popular-tracks #page-popular-track {
   padding-top: 100px;
 }
+
 .popular-tracks-title {
   margin-bottom: 48px;
 }
+
 .popular-tracks-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 55px);
   gap: 25px 50px;
 }
+
 @media screen and (max-width: 600px) {
   .popular-tracks-list {
     grid-template-columns: 1fr;
@@ -454,12 +519,15 @@ input {
 .discography {
   color: #fff;
 }
+
 .discography #page-discography {
   padding-top: 100px;
 }
+
 .discography-title {
   margin-bottom: 48px;
 }
+
 .discography-list {
   display: flex;
   flex-wrap: wrap;
@@ -470,12 +538,15 @@ input {
   padding-bottom: 100px;
   color: #fff;
 }
+
 .similar-artists #page-similar {
   padding-top: 100px;
 }
+
 .similar-artists-title {
   margin-bottom: 48px;
 }
+
 .similar-artists-list {
   display: flex;
   flex-wrap: wrap;
