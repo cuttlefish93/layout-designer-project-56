@@ -277,7 +277,7 @@ input {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 38px;
+  margin-bottom: 44px;
 }
 .subscription-type-price-num {
   font-size: 64px;
@@ -512,10 +512,10 @@ input {
   margin-right: 20px;
 }
 .page-desc .access-form-btn {
-  margin-top: 22px;
+  margin-top: 24px;
   background-color: #34c176;
   border: none;
-  padding: 22px 30px 20px 30px;
+  padding: 20px 30px;
   width: 100%;
   color: #fff;
   font-size: 13.3px;
@@ -523,7 +523,7 @@ input {
 }
 @media screen and (max-width: 620px) {
   .page-desc {
-    padding-top: 245px;
+    padding-top: 250px;
   }
   .page-desc-subtitle {
     margin-bottom: 18px;
