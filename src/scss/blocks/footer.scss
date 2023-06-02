@@ -7,8 +7,8 @@
   color: $main-light-color;
 
   &-nav {
-    padding: 62px 0 72px;
-    border-bottom: 1px solid $secondary-light-color;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -21,6 +21,8 @@
     &-title {
       color: #fff;
       margin-bottom: 15px;
+      font-size: 18px;
+      line-height: 27px;
     }
 
     &-list-social {
@@ -41,7 +43,8 @@
   }
 
   &-menu {
-    padding: 40px 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     gap: 16px;
   }

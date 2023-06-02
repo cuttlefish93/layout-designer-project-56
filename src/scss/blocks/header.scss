@@ -1,5 +1,9 @@
 .header {
   width: 100%;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
 
   .logo {

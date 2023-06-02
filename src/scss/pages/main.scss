@@ -8,12 +8,10 @@
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
-  padding: 25px 0 200px;
+  position: relative;
 }
 
 .page-desc {
-  color: #fff;
-  margin-top: 150px;
   text-align: center;
 
   &-subtitle {
@@ -48,7 +46,7 @@
     }
 
     &-btn {
-      margin-top: 20px;
+      margin-top: 24px;
       background-color: $green-color;
       border: none;
       padding: 20px 30px;
@@ -60,8 +58,6 @@
   }
 
   @media screen and (max-width: 620px) {
-    margin-top: 78px;
-
     &-subtitle {
       margin-bottom: 16px;
     }

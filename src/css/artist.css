@@ -107,14 +107,15 @@ input {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1240px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1239px) {
   .wrapper {
     width: 100%;
-    padding: 0 20px;
   }
 }
 
@@ -170,8 +171,29 @@ input {
   background-color: #08020d;
 }
 
+.hor-divider {
+  width: 100%;
+  border-bottom: 1px solid #cacaca;
+}
+
+#page-description {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1239px) {
+  #page-description {
+    padding-top: 250px;
+  }
+}
+
 .header {
   width: 100%;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
 }
 
@@ -294,7 +316,7 @@ input {
 
 .discography-item-cover {
   height: 250px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .discography-item-name {
@@ -323,7 +345,7 @@ input {
 .similar-artist-avatar {
   height: 250px;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .similar-artist-name {
@@ -353,8 +375,8 @@ input {
 }
 
 .footer-nav {
-  padding: 62px 0 72px;
-  border-bottom: 1px solid #cacaca;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -368,6 +390,8 @@ input {
 .footer-nav-title {
   color: #fff;
   margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .footer-nav-list-social {
@@ -387,7 +411,8 @@ input {
 }
 
 .footer-menu {
-  padding: 40px 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   gap: 16px;
 }
@@ -420,12 +445,7 @@ input {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
-  padding: 25px 0 220px;
-}
-
-.artist-desc {
-  margin-top: 200px;
-  color: #fff;
+  position: relative;
 }
 
 .artist-desc-title {
@@ -461,10 +481,6 @@ input {
 }
 
 @media screen and (max-width: 450px) {
-  .artist-desc {
-    margin-top: 55px;
-  }
-
   .artist-desc-btns {
     flex-direction: column;
     gap: 24px 0;
