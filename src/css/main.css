@@ -186,6 +186,7 @@ input {
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  align-items: center;
 }
 
 .header .logo {
@@ -560,7 +561,7 @@ input {
 }
 
 .page-desc-text {
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .page-desc .access-form {
