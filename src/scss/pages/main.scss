@@ -9,6 +9,8 @@
 }
 
 .page-desc {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background-image: url("../images/banner.png");
 
@@ -56,6 +58,8 @@
   }
 
   @media screen and (max-width: 620px) {
+    padding-top: 250px;
+
     &-subtitle {
       margin-bottom: 16px;
     }
@@ -144,6 +148,7 @@
 
   @media screen and (max-width: 800px) {
     &-info {
+      padding-top: 0;
       margin-right: 0;
       width: auto;
     }

@@ -13,6 +13,7 @@
   padding: 1.5rem;
   color: #fff;
   min-height: 615px;
+  min-width: 369px;
   border-radius: 1rem;
 
   &-title {
@@ -49,6 +50,10 @@
     line-height: 19px;
   }
 
+  @media screen and (max-width: 1239px) {
+    min-width: 0;
+  }
+
   @media screen and (max-width: 800px) {
     width: 70%;
     min-height: 595px;
@@ -57,5 +62,10 @@
 
   @media screen and (max-width: 500px) {
     width: 100%;
+
+    &-title {
+      margin-bottom: 195px;
+      line-height: 1;
+    }
   }
 }

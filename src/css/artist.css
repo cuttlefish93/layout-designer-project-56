@@ -177,17 +177,9 @@ input {
 }
 
 #page-description {
-  padding-top: 200px;
-  padding-bottom: 200px;
   color: #fff;
   background-position: center;
   background-size: cover;
-}
-
-@media screen and (max-width: 1239px) {
-  #page-description {
-    padding-top: 250px;
-  }
 }
 
 .header {
@@ -453,6 +445,8 @@ input {
 
 .artist-desc {
   background-image: url("../images/Morten Harket.png");
+  padding-top: 250px;
+  padding-bottom: 200px;
 }
 
 .artist-desc-title {
@@ -488,6 +482,11 @@ input {
 }
 
 @media screen and (max-width: 450px) {
+  .artist-desc {
+    padding-top: 225px;
+    padding-bottom: 225px;
+  }
+
   .artist-desc-btns {
     flex-direction: column;
     gap: 24px 0;

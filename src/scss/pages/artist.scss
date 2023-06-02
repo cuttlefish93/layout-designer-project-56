@@ -11,6 +11,8 @@
 
 .artist-desc {
   background-image: url("../images/Morten\ Harket.png");
+  padding-top: 250px;
+  padding-bottom: 200px;
 
   &-title {
     margin-bottom: 16px;
@@ -45,6 +47,9 @@
   }
 
   @media screen and (max-width: 450px) {
+    padding-top: 225px;
+    padding-bottom: 225px;
+
     &-btns {
       flex-direction: column;
       gap: 24px 0;
