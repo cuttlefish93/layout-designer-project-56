@@ -28,7 +28,7 @@
 
     &-input {
       min-width: 270px;
-      min-height: 50px;
+      height: 50px;
       border: 2px solid $secondary-light-color;
       border-radius: 3px;
       padding: 16px 20px;
@@ -61,7 +61,11 @@
     padding-top: 250px;
 
     &-subtitle {
-      margin-bottom: 18px;
+      margin-bottom: 15px;
+    }
+
+    &-text {
+      margin-bottom: 15px;
     }
 
     .access-form {
@@ -74,6 +78,11 @@
           margin-right: 0;
           margin-bottom: 24px;
         }
+      }
+
+      &-btn {
+        height: 57px;
+        margin-top: 26px;
       }
     }
   }
@@ -88,11 +97,17 @@
   }
 
   &-title {
-    margin-bottom: 45px;
+    margin-bottom: 48px;
   }
 
   &-text {
-    margin-top: 45px;
+    margin-top: 36px;
+  }
+
+  @media screen and (max-width: 500px) {
+    &-text {
+      margin-bottom: 41px;
+    }
   }
 }
 

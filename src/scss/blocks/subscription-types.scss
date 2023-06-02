@@ -10,21 +10,21 @@
 }
 
 .subscription-type {
-  padding: 20px 24px;
+  padding: 24px;
   color: #fff;
   min-height: 615px;
   min-width: 366px;
   border-radius: 1rem;
 
   &-title {
-    margin-bottom: 200px;
+    margin-bottom: 197px;
   }
 
   &-price {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 44px;
+    margin-bottom: 40px;
 
     &-num {
       font-size: 64px;
@@ -62,11 +62,16 @@
   }
 
   @media screen and (max-width: 500px) {
+    padding: 20px 24px;
     width: 100%;
 
     &-title {
       line-height: 1;
-      margin-bottom: 210px;
+      margin-bottom: 204px;
+    }
+
+    &-btn {
+      margin-bottom: 66px;
     }
   }
 }
