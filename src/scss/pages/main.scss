@@ -5,14 +5,12 @@
 @import "../blocks/footer.scss";
 
 .main-header {
-  background-image: url("../images/banner.png");
-  background-position: center;
-  background-size: cover;
   position: relative;
 }
 
 .page-desc {
   text-align: center;
+  background-image: url("../images/banner.png");
 
   &-subtitle {
     margin-bottom: 30px;
@@ -125,6 +123,7 @@
   }
 
   &-info {
+    padding-top: 16px;
     margin-right: 144px;
     width: 50%;
 

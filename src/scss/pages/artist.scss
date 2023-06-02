@@ -6,13 +6,12 @@
 @import "../blocks/footer.scss";
 
 .artist-header {
-  background-image: url("../images/Morten\ Harket.png");
-  background-position: center;
-  background-size: cover;
   position: relative;
 }
 
 .artist-desc {
+  background-image: url("../images/Morten\ Harket.png");
+
   &-title {
     margin-bottom: 16px;
   }
